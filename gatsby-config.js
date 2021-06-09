@@ -9,20 +9,19 @@ module.exports = {
     author: `Smirk Software`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-styled-components`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-GF33794WPH",
-        // Puts tracking script in the head instead of the body
+        trackingIds: ["G-GF33794WPH"],
+      },
+      pluginConfig: {
+        // Puts tracking script in the head instead of the body (if true)
         head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
         respectDNT: true,
       },
     },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
