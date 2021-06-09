@@ -1,4 +1,4 @@
-##️ The marketing site for Trailing Stop Alerts
+## The marketing site for Trailing Stop Alerts
 
 ### Getting started 🍻
 
