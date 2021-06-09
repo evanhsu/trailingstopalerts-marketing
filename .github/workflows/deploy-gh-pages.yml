@@ -7,6 +7,7 @@ jobs:
   Deploy-to-GitHub-Pages:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Deploy with gh-pages
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
