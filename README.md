@@ -1,4 +1,4 @@
-## ☁️ A simple one page marketing site starter for SaaS companies and indie hackers.
+##️ The marketing site for Trailing Stop Alerts
 
 ### Getting started 🍻
 
